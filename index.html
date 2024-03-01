@@ -10,20 +10,26 @@
   <link rel="stylesheet" href="stili/style.css">
   <script src="script/app.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
   
   
 </head>
 
 <body>
-
-  <div class="container">
- <header class="header">
+  <header class="header">
+ 
+ 
 
   <img src="img/cropped-logo.png" alt="logo" class="logo">
   <nav class="menu">
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="./html/aboutme.html">About me</a></li>
+        <li><a href="./html/aboutme.html">Chi sono</a></li>
         <li><a href="#">Attività</a></li>
       </ul>
   </nav>
@@ -34,16 +40,16 @@
               <span></span>
         </div>
 </header>
-
+<div class="container">
  <div class="hero">
   <div class="hero__text">
       <h1>Gianluigi Sasso</h1>
-      <p>Investi nella tua salute</p>
+      <p>Investi nella tua salute...</p>
       <p>Raggiungi i tuoi obbiettivi di benessere</p>
       <a href="./html/aboutme.html" class="button">Scopri di più</a>
   </div>
      <div class="hero__image">
-       <img src="img/gruppo 4.png" alt="Gianluigi Sasso" class="img-res">
+       <img src="img/Group 483319.png" alt="Gianluigi Sasso" class="img-res">
      </div>
   </div>
     
@@ -67,16 +73,14 @@
          <div class="col-33">
               <div class="card">
                 <div class="card__title">
-                      <h3>Fisioterapia Muscolo Scheletrica</h3>
-                </div>
+                <img src="./img/fisio.png" alt="">
+                <h2>FISIOTERAPIA MUSCOLO SCHELETRICA</h2>
+              </div>
                 <div class="card__content">
-                  <ul>
-                   <li><a href="#">Tecniche di terapia manuale</a></li>
-                   <li><a href="#">Manipolazioni</a></li>
-                   <li><a href="#">Manipolazioni Articolari</a></li>
-                   <li><a href="#">Educazione Teraupetica</a></li>
-                   <li><a href="#">Esercizio Teraupetico</a></li>
-                  </ul>
+                  <h3>Fisioterapia Muscolo Scheletrica</h3>
+                  <p>Fisioterapia basata sulle più recenti evidenze scientifiche, che prevede l’utilizzo di tecniche di terapia manuale (esempio: manipolazioni e mobilizzazioni articolari), esercizio terapeutico ed educazione terapeutica per la prevenzione e la cura delle principali disfunzioni muscolo scheletriche.</p>
+                  <a href="#">Leggi di più <i class="fa-solid fa-arrow-right"></i></a>
+                  
              
        </div>
                    
@@ -85,33 +89,37 @@
          <div class="col-33">
           <div class="card">
             <div class="card__title">
-              <h3>Fisioterapia Sportiva</h3>
-           </div>
-           <div class="card__content">
-            <ul>
-             <li><a href="#">Gestione dell'atleta a 360° </a></li>
-             <li><a href="#">Prevenzione da infortuni</a></li>
-             <li><a href="#">Miglioramento delle performance</a></li>
-            </ul>
-       
- </div>
-               
+            <img src="./img/sportivo.png" alt="">
+            <h2>FISIOTERAPIA SPORTIVA</h2>
           </div>
-     </div>
-     <div class="col-33">
-      <div class="card">
-        <div class="card__title">
-          <h3>Fisioterapia Post Operatoria</h3>
-        </div>
-          <div class="card__content">
-               <ul>
-                <li><a href="#">Gestione del paziente post operatorio</a></li>
-                <li><a href="#">Raggiungimento di obbiettivi secondo una progressione</a></li>
-               </ul>
-          
+            <div class="card__content">
+              <h3>Fisioterapia Sportiva</h3>
+              <p>Area specialistica della fisioterapia che consente di gestire l’atleta a 360°, nella cura e prevenzione dei principali infortuni in ambito sportivo, ma anche nel miglioramento della performance dell’atleta.
+                Nel contesto sportivo, la fisioterapia assume un ruolo cruciale per mantenere gli atleti al massimo delle loro potenzialità fisiche e prevenire eventuali infortuni.
+              </p>
+              <a href="#">Leggi di più <i class="fa-solid fa-arrow-right"></i></a>
+              
+         
+   </div>
+   </div>
+   </div>
+   <div class="col-33">
+    <div class="card">
+      <div class="card__title">
+      <img src="./img/post-operation.png" alt="">
+      <h2>FISIOTERAPIA POST OPERATORIA</h2>
     </div>
-    </div>
-    </div>
+      <div class="card__content">
+        <h3>Fisioterapia Post Operatoria</h3>
+        <p>Gestione del paziente post operatorio attraverso un monitoraggio attento dei sintomi, per poter raggiungere i vari obbiettivi secondo una progressione.
+          Gli obbiettivi principali sono minimizzare il rischio di ulteriori infortuni ed un buon recupero funzionale.
+        </p>
+        <a href="#">Leggi di più <i class="fa-solid fa-arrow-right"></i></a>
+        
+   
+</div>
+</div>
+</div>
     </div>
   </div>
 
@@ -126,7 +134,7 @@
     js.async = 1; fjs.parentNode.insertBefore(js, fjs);
   }
   (window, document, 'script', 'trustmary-embed', 'tmary'));
-</script>s
+</script>
 
      <footer>
       <div class="grid">
