@@ -70,6 +70,18 @@ body{background:#EBF1FF }
 }
 .button:hover{background-color:#001B29;color: white;}
 
+.buttonAbout{
+    
+    
+    color: #001B29;
+    
+    padding: 15px 20px;
+    display:inline-block;
+    border:2px solid #001B29;
+    border-radius: 50px;
+    
+}
+.buttonAbout:hover{background-color:#001B29;color: white;}
 .social ul{
 
     margin: 0;
@@ -149,7 +161,9 @@ body{background:#EBF1FF }
 
 /*#region about me */
 
-.col-60 p{font-size: 1.5rem;margin-top: 15%;line-height: 1.2;}
+.col-60 h2{margin-top: 10%;color: #001B29;}
+.col-60 p{font-size: 1.7rem;line-height: 1.5;margin-top: 10%;max-width: 700px;font-family: "Rubik";color: #003652;}
+.col-60{padding-left: 5%;}
 .col-40{padding-left: 5%;}
 
 /*#endregion about me */
